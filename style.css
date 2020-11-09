@@ -1,0 +1,46 @@
+body{
+    background-color: indigo;
+    margin: 20% 40%;
+
+}
+
+.white-keys kbd{
+    display: inline-block;
+    font-size: 25px;
+    background-color: white;
+    border-style: solid;
+    border-color: lightpink;
+    text-align: center;
+    width: 50px;
+    height: 200px;
+    margin: auto;
+
+}
+
+.black-keys kbd{
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 25px;
+    background-color: black;
+    border-style: solid;
+    border-color: #ffb6c1;
+    text-align: center;
+    color: white;
+    width: 25px;
+    height: 100px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    top: -207px;
+    left: 20px;
+    margin-left: 25px;
+}
+#out{
+    margin-left: 85px;
+    z-index: 1;
+}
+div.container{
+    width: 800px;
+    height: 50%;
+    margin: auto;
+}
